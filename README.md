@@ -1,5 +1,5 @@
 #  Kidney Stone Killer
-## Work in progress
+### Work in progress
 
 * Astrosmash clone
 * Made with Sprite Kit
