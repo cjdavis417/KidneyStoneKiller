@@ -70,6 +70,7 @@
 		676F4D4C1E40456200BB8C5C /* space-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-BG.png"; sourceTree = "<group>"; };
 		67B8616E1E5288A600A95449 /* ExhaustEmitterNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhaustEmitterNode.swift; sourceTree = "<group>"; };
 		67B861701E528C5300A95449 /* ExhaustEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExhaustEmitter.sks; sourceTree = "<group>"; };
+		67CB0AE8215DAF060060BBDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67CF94F61E55144A005BF705 /* torpedo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = torpedo.sks; sourceTree = "<group>"; };
 		67CF94F81E552419005BF705 /* stone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone2.png; sourceTree = "<group>"; };
 		67CF94FA1E552791005BF705 /* ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship2.png; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		67E8C2C31E3EA16500AE47CE = {
 			isa = PBXGroup;
 			children = (
+				67CB0AE8215DAF060060BBDC /* README.md */,
 				67E8C2CE1E3EA16500AE47CE /* Kidney Stone Killer */,
 				67E8C2E91E3EA16500AE47CE /* Kidney Stone KillerTests */,
 				67E8C2F41E3EA16500AE47CE /* Kidney Stone KillerUITests */,
