@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670694DC1E4FEAC30047AF27 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670694DB1E4FEAC30047AF27 /* Labels.swift */; };
+		670694DF1E4FF6F10047AF27 /* Slackey.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670694E11E4FF6F10047AF27 /* Slackey.ttf */; };
+		670694E71E5209850047AF27 /* ShipLightDamage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 670694E61E5209850047AF27 /* ShipLightDamage.sks */; };
+		670694E91E520A5C0047AF27 /* HeavyDamage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 670694E81E520A5C0047AF27 /* HeavyDamage.sks */; };
+		670694EB1E520BBC0047AF27 /* RockDestroy.sks in Resources */ = {isa = PBXBuildFile; fileRef = 670694EA1E520BBC0047AF27 /* RockDestroy.sks */; };
+		676440771E5292CA006B168E /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 676440761E5292CA006B168E /* spaceship.png */; };
+		676440791E529F46006B168E /* StoneExplosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676440781E529F46006B168E /* StoneExplosion.swift */; };
+		6764407B1E54A46D006B168E /* ShipDamage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764407A1E54A46D006B168E /* ShipDamage.swift */; };
+		676F4D4D1E40456200BB8C5C /* space-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 676F4D4C1E40456200BB8C5C /* space-BG.png */; };
+		67B8616F1E5288A600A95449 /* ExhaustEmitterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8616E1E5288A600A95449 /* ExhaustEmitterNode.swift */; };
+		67B861711E528C5300A95449 /* ExhaustEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67B861701E528C5300A95449 /* ExhaustEmitter.sks */; };
+		67CF94F71E55144A005BF705 /* torpedo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67CF94F61E55144A005BF705 /* torpedo.sks */; };
+		67CF94F91E552419005BF705 /* stone2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67CF94F81E552419005BF705 /* stone2.png */; };
+		67CF94FB1E552791005BF705 /* ship2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67CF94FA1E552791005BF705 /* ship2.png */; };
 		67E8C2D01E3EA16500AE47CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8C2CF1E3EA16500AE47CE /* AppDelegate.swift */; };
 		67E8C2D21E3EA16500AE47CE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67E8C2D11E3EA16500AE47CE /* GameScene.sks */; };
 		67E8C2D41E3EA16500AE47CE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67E8C2D31E3EA16500AE47CE /* Actions.sks */; };
@@ -17,6 +31,14 @@
 		67E8C2E01E3EA16500AE47CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E8C2DE1E3EA16500AE47CE /* LaunchScreen.storyboard */; };
 		67E8C2EB1E3EA16500AE47CE /* Kidney_Stone_KillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8C2EA1E3EA16500AE47CE /* Kidney_Stone_KillerTests.swift */; };
 		67E8C2F61E3EA16500AE47CE /* Kidney_Stone_KillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8C2F51E3EA16500AE47CE /* Kidney_Stone_KillerUITests.swift */; };
+		67E8C3081E3EA68B00AE47CE /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E8C3051E3EA68B00AE47CE /* bullet.png */; };
+		67E8C3091E3EA68B00AE47CE /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E8C3061E3EA68B00AE47CE /* stone.png */; };
+		67E8C30D1E3EA89300AE47CE /* KSKMainGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67E8C30C1E3EA89300AE47CE /* KSKMainGame.sks */; };
+		67E8C30F1E3EA93B00AE47CE /* KSKMainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8C30E1E3EA93B00AE47CE /* KSKMainGame.swift */; };
+		67E8C3111E3EAA1900AE47CE /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8C3101E3EAA1900AE47CE /* Ship.swift */; };
+		67E8C3131E3EB56E00AE47CE /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8C3121E3EB56E00AE47CE /* Bullet.swift */; };
+		67F9D28F1E58B18700DA096F /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67F9D28E1E58B18700DA096F /* space.jpg */; };
+		67FEF5A71E46894500586476 /* kStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FEF5A61E46894500586476 /* kStone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +59,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670694DB1E4FEAC30047AF27 /* Labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		670694E01E4FF6F10047AF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Slackey.ttf; sourceTree = "<group>"; };
+		670694E61E5209850047AF27 /* ShipLightDamage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShipLightDamage.sks; sourceTree = "<group>"; };
+		670694E81E520A5C0047AF27 /* HeavyDamage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HeavyDamage.sks; sourceTree = "<group>"; };
+		670694EA1E520BBC0047AF27 /* RockDestroy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RockDestroy.sks; sourceTree = "<group>"; };
+		676440761E5292CA006B168E /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
+		676440781E529F46006B168E /* StoneExplosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneExplosion.swift; sourceTree = "<group>"; };
+		6764407A1E54A46D006B168E /* ShipDamage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipDamage.swift; sourceTree = "<group>"; };
+		676F4D4C1E40456200BB8C5C /* space-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-BG.png"; sourceTree = "<group>"; };
+		67B8616E1E5288A600A95449 /* ExhaustEmitterNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhaustEmitterNode.swift; sourceTree = "<group>"; };
+		67B861701E528C5300A95449 /* ExhaustEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExhaustEmitter.sks; sourceTree = "<group>"; };
+		67CF94F61E55144A005BF705 /* torpedo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = torpedo.sks; sourceTree = "<group>"; };
+		67CF94F81E552419005BF705 /* stone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone2.png; sourceTree = "<group>"; };
+		67CF94FA1E552791005BF705 /* ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship2.png; sourceTree = "<group>"; };
 		67E8C2CC1E3EA16500AE47CE /* Kidney Stone Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kidney Stone Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E8C2CF1E3EA16500AE47CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E8C2D11E3EA16500AE47CE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +89,14 @@
 		67E8C2F11E3EA16500AE47CE /* Kidney Stone KillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kidney Stone KillerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E8C2F51E3EA16500AE47CE /* Kidney_Stone_KillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kidney_Stone_KillerUITests.swift; sourceTree = "<group>"; };
 		67E8C2F71E3EA16500AE47CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E8C3051E3EA68B00AE47CE /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		67E8C3061E3EA68B00AE47CE /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		67E8C30C1E3EA89300AE47CE /* KSKMainGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KSKMainGame.sks; sourceTree = "<group>"; };
+		67E8C30E1E3EA93B00AE47CE /* KSKMainGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSKMainGame.swift; sourceTree = "<group>"; };
+		67E8C3101E3EAA1900AE47CE /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		67E8C3121E3EB56E00AE47CE /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		67F9D28E1E58B18700DA096F /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		67FEF5A61E46894500586476 /* kStone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kStone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +124,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670694E31E5207480047AF27 /* emitters */ = {
+			isa = PBXGroup;
+			children = (
+				670694E61E5209850047AF27 /* ShipLightDamage.sks */,
+				670694E81E520A5C0047AF27 /* HeavyDamage.sks */,
+				670694EA1E520BBC0047AF27 /* RockDestroy.sks */,
+				67B861701E528C5300A95449 /* ExhaustEmitter.sks */,
+				67CF94F61E55144A005BF705 /* torpedo.sks */,
+			);
+			name = emitters;
+			sourceTree = "<group>";
+		};
 		67E8C2C31E3EA16500AE47CE = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +159,10 @@
 		67E8C2CE1E3EA16500AE47CE /* Kidney Stone Killer */ = {
 			isa = PBXGroup;
 			children = (
+				670694E31E5207480047AF27 /* emitters */,
+				67E8C30B1E3EA86800AE47CE /* KSK Scenes */,
+				67E8C3041E3EA1E900AE47CE /* KSK Assets */,
+				67E8C3031E3EA1CC00AE47CE /* KSK Classes */,
 				67E8C2CF1E3EA16500AE47CE /* AppDelegate.swift */,
 				67E8C2D11E3EA16500AE47CE /* GameScene.sks */,
 				67E8C2D31E3EA16500AE47CE /* Actions.sks */,
@@ -132,6 +192,44 @@
 				67E8C2F71E3EA16500AE47CE /* Info.plist */,
 			);
 			path = "Kidney Stone KillerUITests";
+			sourceTree = "<group>";
+		};
+		67E8C3031E3EA1CC00AE47CE /* KSK Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67E8C30E1E3EA93B00AE47CE /* KSKMainGame.swift */,
+				67E8C3101E3EAA1900AE47CE /* Ship.swift */,
+				67E8C3121E3EB56E00AE47CE /* Bullet.swift */,
+				67FEF5A61E46894500586476 /* kStone.swift */,
+				670694DB1E4FEAC30047AF27 /* Labels.swift */,
+				67B8616E1E5288A600A95449 /* ExhaustEmitterNode.swift */,
+				676440781E529F46006B168E /* StoneExplosion.swift */,
+				6764407A1E54A46D006B168E /* ShipDamage.swift */,
+			);
+			name = "KSK Classes";
+			sourceTree = "<group>";
+		};
+		67E8C3041E3EA1E900AE47CE /* KSK Assets */ = {
+			isa = PBXGroup;
+			children = (
+				67F9D28E1E58B18700DA096F /* space.jpg */,
+				67CF94FA1E552791005BF705 /* ship2.png */,
+				67CF94F81E552419005BF705 /* stone2.png */,
+				676440761E5292CA006B168E /* spaceship.png */,
+				670694E11E4FF6F10047AF27 /* Slackey.ttf */,
+				676F4D4C1E40456200BB8C5C /* space-BG.png */,
+				67E8C3051E3EA68B00AE47CE /* bullet.png */,
+				67E8C3061E3EA68B00AE47CE /* stone.png */,
+			);
+			name = "KSK Assets";
+			sourceTree = "<group>";
+		};
+		67E8C30B1E3EA86800AE47CE /* KSK Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				67E8C30C1E3EA89300AE47CE /* KSKMainGame.sks */,
+			);
+			name = "KSK Scenes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,10 +342,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670694E71E5209850047AF27 /* ShipLightDamage.sks in Resources */,
+				670694E91E520A5C0047AF27 /* HeavyDamage.sks in Resources */,
+				676F4D4D1E40456200BB8C5C /* space-BG.png in Resources */,
 				67E8C2DB1E3EA16500AE47CE /* Main.storyboard in Resources */,
+				670694EB1E520BBC0047AF27 /* RockDestroy.sks in Resources */,
+				67B861711E528C5300A95449 /* ExhaustEmitter.sks in Resources */,
+				67F9D28F1E58B18700DA096F /* space.jpg in Resources */,
+				67E8C3081E3EA68B00AE47CE /* bullet.png in Resources */,
+				67CF94F71E55144A005BF705 /* torpedo.sks in Resources */,
 				67E8C2D21E3EA16500AE47CE /* GameScene.sks in Resources */,
+				670694DF1E4FF6F10047AF27 /* Slackey.ttf in Resources */,
+				67CF94FB1E552791005BF705 /* ship2.png in Resources */,
 				67E8C2DD1E3EA16500AE47CE /* Assets.xcassets in Resources */,
+				67E8C30D1E3EA89300AE47CE /* KSKMainGame.sks in Resources */,
+				67CF94F91E552419005BF705 /* stone2.png in Resources */,
 				67E8C2E01E3EA16500AE47CE /* LaunchScreen.storyboard in Resources */,
+				676440771E5292CA006B168E /* spaceship.png in Resources */,
+				67E8C3091E3EA68B00AE47CE /* stone.png in Resources */,
 				67E8C2D41E3EA16500AE47CE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +385,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6764407B1E54A46D006B168E /* ShipDamage.swift in Sources */,
+				67E8C3111E3EAA1900AE47CE /* Ship.swift in Sources */,
+				67E8C30F1E3EA93B00AE47CE /* KSKMainGame.swift in Sources */,
 				67E8C2D61E3EA16500AE47CE /* GameScene.swift in Sources */,
 				67E8C2D81E3EA16500AE47CE /* GameViewController.swift in Sources */,
+				670694DC1E4FEAC30047AF27 /* Labels.swift in Sources */,
 				67E8C2D01E3EA16500AE47CE /* AppDelegate.swift in Sources */,
+				67E8C3131E3EB56E00AE47CE /* Bullet.swift in Sources */,
+				676440791E529F46006B168E /* StoneExplosion.swift in Sources */,
+				67B8616F1E5288A600A95449 /* ExhaustEmitterNode.swift in Sources */,
+				67FEF5A71E46894500586476 /* kStone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +431,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		670694E11E4FF6F10047AF27 /* Slackey.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670694E01E4FF6F10047AF27 /* Base */,
+			);
+			name = Slackey.ttf;
+			sourceTree = "<group>";
+		};
 		67E8C2D91E3EA16500AE47CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -524,6 +652,7 @@
 				67E8C2FC1E3EA16500AE47CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E8C2FD1E3EA16500AE47CE /* Build configuration list for PBXNativeTarget "Kidney Stone KillerTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +661,7 @@
 				67E8C2FF1E3EA16500AE47CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E8C3001E3EA16500AE47CE /* Build configuration list for PBXNativeTarget "Kidney Stone KillerUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +670,7 @@
 				67E8C3021E3EA16500AE47CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
